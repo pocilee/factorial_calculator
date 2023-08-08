@@ -1,0 +1,25 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:api": "cypress run --e2e --headless --spec 'cypress/e2e/API/**/*.cy.js' --browser chrome",
+    "cy:e2e": "cypress run --e2e --headless --spec 'cypress/e2e/UI/**/*.cy.js' --browser chrome",
+    "cy:open": "cypress open --e2e --browser chrome",
+    "cy:run": "cypress run --e2e --headless --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pocilee/factorial_calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pocilee/factorial_calculator/issues"
+  },
+  "homepage": "https://github.com/pocilee/factorial_calculator#readme",
+  "dependencies": {
+    "cypress": "^12.17.3"
+  }
+}

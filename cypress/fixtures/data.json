@@ -1,0 +1,17 @@
+{
+  "mainPage": {
+    "mainHeaderText": "The greatest factorial calculator!",
+    "termsAndConditions": "Terms and Conditions",
+    "calculateButtonText": "Calculate!",
+    "privacy": "Privacy",
+    "qxf2LinkText": "Qxf2 Services"
+  },
+  "api": {
+    "theLegend": "GNU Terry Pratchett"
+  },
+  "validTestValues": {
+    "input": [1,2,3,4,5,6,7],
+    "result": [1,2,6,24,120,720,5040]
+  },
+  "randomTestStrings": ["test", "one two", "@#$:$@}#${@#$", "TEST", "  1 2 3   ", " 123 123 123", "[]", "{}", "123!", null]
+}
